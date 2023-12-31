@@ -8,9 +8,26 @@ If you want to view the data detected by the sensor but the humidity and PM valu
 * **Arduino IDE**
 ### Part List:
 #### Hardware:
-#### Connection:
+##### Sensor:
+* **DHT 22 humidity&temperature sensor**
+* **PMS 5003 particle sensor**
+* **touch sensor**
+##### Actuator:
+* **LED Strip**
+* **0.96-inch OLED display**
+##### Microcontroller:
+* **Arduino Uno R3**
+#### Connection & Power Supply:
+* **double side prototype universal printed circuit PCB board**
+* **jumper wire**
+* **USB-A Male to USB-B Male**
 #### Enclosure:
+* **3mm laser-cut wood board**
 ### Tools:
+* **Soldering**
+* **duct tape**
+* **sponge double-sided tape**
+* **wood glue**
 ## Processes
 ### Test Sensors:
 ### Connect the Circuit:
