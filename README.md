@@ -9,9 +9,9 @@ If you want to view the data detected by the sensor but the humidity and PM valu
 ### Part List:
 #### Hardware:
 ##### Sensor:
-* **DHT 22 humidity&temperature sensor**
-* **PMS 5003 particle sensor**
-* **touch sensor**
+* **DHT22 humidity&temperature sensor**
+* **PMS5003 particle sensor**
+* **Touch Sensor**
 ##### Actuator:
 * **LED Strip**
 * **0.96-inch OLED display**
@@ -29,7 +29,23 @@ If you want to view the data detected by the sensor but the humidity and PM valu
 * **sponge double-sided tape**
 * **wood glue**
 ## Processes
-### Test Sensors:
+### Test Hardware:
+These code examples for testing the hardware all run within the Arduino IDE just like the main code.
+#### DHT22
+[Test Code for DHT22](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Test%20Code/DHT22/DHT22.ino)
+would help to print out the latest sensed temperature and humidity in the print monitor.
+#### PMS5003
+[Test Code for PMS5003](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Test%20Code/PMS5003/PMS5003.ino)
+would help to read the PM value in the current space as sensed by the PMS5003 and determine if this sensor has read the data correctly. 
+#### Touch Sensor
+[Test Code for Touch Sensor](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Test%20Code/TouchSensor/TouchSensor.ino)
+It prints out whether the status of the Touch Sensor is in the state of being touched or not.
+#### LED Strip
+[Test Code for LED Strip](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Test%20Code/LED%20Strip/LEDStrip.ino)
+After the code is run, the LED Strip will light up red one by one.
+#### 0.96-inch OLED display
+[Test Code for 0.96-inch OLED display](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Test%20Code/OLED%20display/OLEDdisplayV1.ino)
+By using the library of U8g2, it will light up the OLED display. But it is not U8g2 that is used in the main program. This program can only be used to test if the OLED display is working properly.
 ### Connect the Circuit:
 ### Fix into the Enclosure
 ## Prototype Showcase Sample
