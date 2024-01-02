@@ -18,17 +18,21 @@ If you want to view the data detected by the sensor but the humidity and PM valu
 ##### Microcontroller:
 * **Arduino Uno R3**
 #### Connection & Power Supply:
-* **double side prototype universal printed circuit PCB board**
+* **prototype PCB**
 * **jumper wire**
 * **USB-A Male to USB-B Male**
+* **Pin Headers**
 #### Enclosure:
 * **3mm laser-cut wood board**
-### Tools:
-* **Soldering**
+### Equipment:
+* **Soldering iron**
+* **Soldering stand**
 * **duct tape**
 * **sponge double-sided tape**
 * **wood glue**
+
 ## Processes
+### Arduino IDE Set Up
 ### Test Hardware:
 These code examples for testing the hardware all run within the Arduino IDE just like the main code.
 #### DHT22
@@ -46,6 +50,18 @@ After the code is run, the LED Strip will light up red one by one.
 #### 0.96-inch OLED display
 [Test Code for 0.96-inch OLED display](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Test%20Code/OLED%20display/OLEDdisplayV1.ino)
 By using the library of U8g2, it will light up the OLED display. But it is not U8g2 that is used in the main program. This program can only be used to test if the OLED display is working properly.
-### Connect the Circuit:
-### Fix into the Enclosure
-## Prototype Showcase Sample
+### Connect the Circuit
+Connect the circuit following the breadboard-based circuit diagram:
+![circuit diagram](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/DesktopAirMonitoring%26LightAlarmDeviceCircuits.jpg "circuit_diagram.jpg")
+### Run the Main Code
+
+### Fix hardware into the Enclosure
+####
+####
+####
+
+## Prototype Showcase
+### Interior Details
+abc
+### Overall Showcase
+abc
