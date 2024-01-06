@@ -32,8 +32,14 @@ If you want to view the data detected by the sensor but the humidity and PM valu
 * **wood glue**
 
 ## Processes
-### Arduino IDE Set Up
-### Test Hardware:
+### Arduino IDE - Set Up Libraries
+* **DHT** [Source](https://github.com/adafruit/DHT-sensor-library/blob/master/DHT.h)
+* **PMS** [Source](https://github.com/fu-hsi/PMS)
+* **Adafruit NeoPixel** [Source](https://github.com/adafruit/Adafruit_NeoPixel/blob/master/Adafruit_NeoPixel.h)
+* **Adafruit GFX** [Source](https://github.com/adafruit/Adafruit-GFX-Library)
+* **Adafruit SSD1306** [Source](https://github.com/adafruit/Adafruit_SSD1306)
+* **SoftwareSerial** [Source](https://github.com/arduino/ArduinoCore-avr/blob/master/libraries/SoftwareSerial/src/SoftwareSerial.h)
+### Arduino IDE - Test Hardware
 These code examples for testing the hardware all run within the Arduino IDE just like the main code.
 #### DHT22
 [Test Code for DHT22](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Test%20Code/DHT22/DHT22.ino)
@@ -53,8 +59,8 @@ By using the library of U8g2, it will light up the OLED display. But it is not U
 ### Connect the Circuit
 Connect the circuit following the breadboard-based circuit diagram:
 ![circuit diagram](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/DesktopAirMonitoring%26LightAlarmDeviceCircuits.jpg "circuit_diagram.jpg")
-### Run the Main Code
-
+### Demo Code
+After connecting the circuit, upload the demo code [Source](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/tree/main/demo_1) to the Arduino Uno R3 board. Wair for a mininute for warming up the PMS5003 particle sensor. Then the device should be working well.
 ### Fix hardware into the Enclosure
 ####
 ####
