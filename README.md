@@ -80,11 +80,14 @@ Finally, fix the sensors and actuators to the pre-cut positions of the wood boar
 ## Prototype Showcase
 ### Interior Details
 * The top layer of the device
-![interior part1](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior.jpg "interior part1")
+<img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior.jpg" alt="interior part1" style="width: 65%;">
+
 * The base of the device
-![interior part2](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior1.jpg "interior part2")
+<img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior1.jpg" alt="interior part2" style="width: 65%;">
+
 * The wire-connected interior view
-![interior part3](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior2.jpg "interior part3")
+<img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior2.jpg" alt="interior part3" style="width: 65%;">
+
 ### Overall Showcase
 This is an example of indoor PM2.5 exceeding the healthy value. It triggered the condition - When PM2.5 > 35 or PM10 > 154, the LED strip will light with an orange color. Therefore, the LED strip lights with orange color.
-![overall view](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_overall.jpg "overall view")
+<img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_overall.jpg" alt="overall view" style="width: 65%;">
