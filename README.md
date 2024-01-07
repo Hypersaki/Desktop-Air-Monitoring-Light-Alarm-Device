@@ -60,25 +60,31 @@ By using the library of U8g2, it will light up the OLED display. But it is not U
 Connect the circuit following the breadboard-based circuit diagram:
 ![circuit diagram](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/DesktopAirMonitoring%26LightAlarmDeviceCircuits.jpg "circuit_diagram.jpg")
 ### Demo Code
-After connecting the circuit, upload the demo code [(Source)](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/tree/main/demo_1) to the Arduino Uno R3 board. Wair for a mininute for warming up the PMS5003 particle sensor. Then the device should be working well.
+After connecting the circuit, upload the demo code [(Source)](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/tree/main/demo_1) to the Arduino Uno R3 board. Wair for a minute to warm up the PMS5003 particle sensor. Then the device should be working well.
 #### Device Working Logics
-* **When keep pressing touch sensor, the OLED screen displays the current PM values and relative humidity.**
-* **When the current air is too dry or a PM value is over a certain number (PM2.5 > 35 or PM10 > 154), the led strip will light on and the OLED screen will be automatically turned on.**
+* **When keep pressing the touch sensor, the OLED screen displays the current PM values and relative humidity.**
+* **When the current air is too dry or a PM value is over a certain number (PM2.5 > 35 or PM10 > 154), the LED strip will light on and the OLED screen will be automatically turned on.**
 * **LED conditions:**
-  * When PM2.5 > 35 or PM10 > 154, the LED strip will light with orange color.
-  * When humidity < 40, the LED strip will light with yellow color.
-  * When both condition satisfy, the LED strip will light with red color.
+  * When PM2.5 > 35 or PM10 > 154, the LED strip will light with an orange color.
+  * When humidity < 40, the LED strip will light with a yellow color.
+  * When both conditions are satisfied, the LED strip will light with a red color.
 
 ### Fix hardware into the Enclosure
 #### 
-Use sponge double-sided tape to fix the Arduino Uno R3 board and universal PCB to the base wood board, and then connect the circuits according to the breadboard-based circuit diagram. It is important to note that all the VCC and GND of the sensors and actuators need to be wired to the universal PCB. And all signal wires are directly connected to the Uno board.
+Use sponge double-sided tape to fix the Arduino Uno R3 board and universal PCB to the base wood board, and then connect the circuits according to the breadboard-based circuit diagram. It is important to note that all the VCC and GND of the sensors and actuators need to be wired to the universal PCB. All signal wires are directly connected to the Uno board.
 ####
 Use wood glue to hold the front and back boards in place. Wood glue can be used a little more in the jambs and corners to achieve a better hold. Wood boards may be prone to loosening during the wood glue cooling process. This is a step that requires patience.
 ####
-Finally fix the sensors and actuators to the pre-cut positions of the wood boards by using ductape.
+Finally, fix the sensors and actuators to the pre-cut positions of the wood boards by using duct tape.
 
 ## Prototype Showcase
 ### Interior Details
-abc
+* The top layer of the device
+![interior part1](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior.jpg "interior part1")
+* The base of the device
+![interior part2](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior1.jpg "interior part2")
+* The wire-connected interior view
+![interior part3](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior2.jpg "interior part3")
 ### Overall Showcase
-abc
+This is an example of indoor PM2.5 exceeding the healthy value. It triggered the condition - When PM2.5 > 35 or PM10 > 154, the LED strip will light with an orange color. Therefore, the LED strip lights with orange color.
+![overall view](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_overall.jpg "overall view")
