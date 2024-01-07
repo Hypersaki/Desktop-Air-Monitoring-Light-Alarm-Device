@@ -61,13 +61,19 @@ Connect the circuit following the breadboard-based circuit diagram:
 ![circuit diagram](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/DesktopAirMonitoring%26LightAlarmDeviceCircuits.jpg "circuit_diagram.jpg")
 ### Demo Code
 After connecting the circuit, upload the demo code [(Source)](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/tree/main/demo_1) to the Arduino Uno R3 board. Wair for a mininute for warming up the PMS5003 particle sensor. Then the device should be working well.
+#### Device Working Logics
+*
+*
+*
+*
+
 ### Fix hardware into the Enclosure
 #### 
-Use sponge double sided tape to glue the Arduino Uno R3 board and universal PCB to the base wood board, and then connect the circuits according to the breadboard based circuit diagram. It is important to note that all the VCC and GND of the sensors and actuators need to be connected to the universal PCB. And all signal wires are directly connected to the Uno board.
+Use sponge double-sided tape to fix the Arduino Uno R3 board and universal PCB to the base wood board, and then connect the circuits according to the breadboard-based circuit diagram. It is important to note that all the VCC and GND of the sensors and actuators need to be wired to the universal PCB. And all signal wires are directly connected to the Uno board.
 ####
-Use wood glue to hold the front and back boards in place. Wood glue can be used a little more in the jambs and corners to achieve a better hold.
+Use wood glue to hold the front and back boards in place. Wood glue can be used a little more in the jambs and corners to achieve a better hold. Wood boards may be prone to loosening during the wood glue cooling process. This is a step that requires patience.
 ####
-Finally the sensors and actuators are fixed to the pre-cut positions of the wood boards using ductape.
+Finally fix the sensors and actuators to the pre-cut positions of the wood boards by using ductape.
 
 ## Prototype Showcase
 ### Interior Details
