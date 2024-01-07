@@ -89,5 +89,5 @@ Finally, fix the sensors and actuators to the pre-cut positions of the wood boar
 <img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior2.jpg" alt="interior part3" style="width: 65%;">
 
 ### Overall Showcase
-This is an example of indoor PM2.5 exceeding the healthy value. It triggered the condition - When PM2.5 > 35 or PM10 > 154, the LED strip will light with an orange color. Therefore, the LED strip lights with orange color.
+This is an example of indoor PM2.5 exceeding the healthy value. It triggered the condition - When PM2.5 > 35 or PM10 > 154, the LED strip will light with an orange color.
 <img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_overall.jpg" alt="overall view" style="width: 65%;">
