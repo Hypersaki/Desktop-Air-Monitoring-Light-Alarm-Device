@@ -62,10 +62,12 @@ Connect the circuit following the breadboard-based circuit diagram:
 ### Demo Code
 After connecting the circuit, upload the demo code [(Source)](https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/tree/main/demo_1) to the Arduino Uno R3 board. Wair for a mininute for warming up the PMS5003 particle sensor. Then the device should be working well.
 #### Device Working Logics
-*
-*
-*
-*
+* **When keep pressing touch sensor, the OLED screen displays the current PM values and relative humidity.**
+* **When the current air is too dry or a PM value is over a certain number (PM2.5 > 35 or PM10 > 154), the led strip will light on and the OLED screen will be automatically turned on.**
+* **LED conditions:**
+  * When PM2.5 > 35 or PM10 > 154, the LED strip will light with orange color.
+  * When humidity < 40, the LED strip will light with yellow color.
+  * When both condition satisfy, the LED strip will light with red color.
 
 ### Fix hardware into the Enclosure
 #### 
