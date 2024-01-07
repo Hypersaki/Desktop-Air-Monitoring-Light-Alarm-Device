@@ -80,7 +80,7 @@ Finally, fix the sensors and actuators to the pre-cut positions of the wood boar
 ## Prototype Showcase
 ### Interior Details
 * The top layer of the device
-<img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior.jpg" alt="interior part1" style="width: 65%;">
+<img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior.jpg" alt="interior part1" style="width: 50%;">
 
 * The base of the device
 <img src="https://github.com/Hypersaki/Desktop-Air-Monitoring-Light-Alarm-Device/blob/main/Image/prototype_image/new_version_interior1.jpg" alt="interior part2" style="width: 65%;">
