@@ -31,7 +31,7 @@ If you want to view the data detected by the sensor but the humidity and PM valu
 * **sponge double-sided tape**
 * **wood glue**
 
-## Processes
+## Development Processes
 ### Arduino IDE - Set Up Libraries
 * **DHT** [(Source)](https://github.com/adafruit/DHT-sensor-library/blob/master/DHT.h)
 * **PMS** [(Source)](https://github.com/fu-hsi/PMS)
